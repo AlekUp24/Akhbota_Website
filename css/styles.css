@@ -10,7 +10,7 @@
     --body-background-color: ;
 
     --div-size: 1300px;
-    --div-background-color: ;
+    --div-background-color: #f8ecec; 
 
     --nav-color: #8b83bd;
     --nav-font-hover-color: #FFF2CC;
@@ -33,7 +33,7 @@ body {
 
 .content {
     flex: 1;
-    background-color: #f8ecec;
+    background-color: var(--div-background-color);
 }
 
 .container {
@@ -138,7 +138,7 @@ nav .container {
 
 #hodowla {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     max-width: var(--div-size);
 }
@@ -160,23 +160,40 @@ nav .container {
 
 .toggled-opacity {
     opacity: 0.4;
-    border-radius: 15%;
 }
 
 .breed-details {
     display: grid;
-    width: 100%;
+    width: 90%;
+    justify-content: space-evenly;
     text-align: justify;
     font-size: large;
-    padding-left: 2px;
 }
 
+
+/* Co Nas Wyróżnia */
+
+#co-wyroznia{
+    max-width: var(--div-size);
+    justify-content: space-evenly;
+}
+
+#co-wyroznia i{
+    font-size: 4rem;
+    transition: 0.3s ease-in-out;
+}
+
+#co-wyroznia i:hover{
+    color: var(--nav-color);
+    transition: 0.3s ease-in-out;
+}
 
 /* Certyfikaty */
 
 #certyfikaty{
     max-width: var(--div-size);
 }
+
 
 /* Galeria */
 
