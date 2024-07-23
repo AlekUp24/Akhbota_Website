@@ -79,10 +79,7 @@ nav .container {
 
 /* Carousel */
 
-.carousel-custom img{
-    object-fit: cover;
-    object-position: center;
-}
+
 
 .carousel {
     max-height: 500px;
@@ -91,14 +88,15 @@ nav .container {
 
 .carousel-inner {
     display: flex;
-    align-items: center;
+    align-items: middle;
     max-height: 500px;
 }
 
 .carousel-item {
+    max-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: middle;
 }
 
 .carousel-item img {
@@ -150,7 +148,7 @@ nav .container {
     max-width: 380px;
     height: 400px;
     transition: 0.3s ease-in-out;
-    margin: 0px;
+    margin-bottom: 10px;
     object-fit: cover;
 }
 
