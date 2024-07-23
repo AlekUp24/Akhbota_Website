@@ -33,13 +33,19 @@ body {
 
 .content {
     flex: 1;
+    background-color: #f8ecec;
 }
 
 .container {
     text-align: center;
+    background-color: #f3f0e8
 }
 
 /* Navbar */
+
+nav .container {
+    background-color: transparent;
+}
 
 .my-navbar-color {
     background-color: var(--nav-color); 
